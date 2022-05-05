@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    align-items: flex-start;
+}
+.word{
+    width: 150px;
+    height: 100px;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+margin-left: 60px;
+margin-top: 60px;    
+color: rgb(161, 157, 157);
+font-size: 25px;
+}
+.kirish{
+    border: 2px solid blue;
+    outline: none;
+    margin: auto;
+    width: 100px;
+    height: 30px;
+  text-align: center;
+  border-radius: 10px;
+  background-color:rgba(202, 202, 223, 0.781);
+  margin-right: 10px;
+  margin-top: 50px;
+}
+.exit{
+    border: 2px solid green;
+    outline: none;
+    margin: auto;
+    margin-top: 50px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color:rgba(202, 233, 202, 0.911);
+    margin-right: 10px;
+
+}
+.world{
+    border: none;
+    background: white;
+    margin-top: 40px;
+    margin-right: 10px;
+    color: gray;
+    outline: none;
+}
+
